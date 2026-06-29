@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Oleo Bold";
+    src: url(../fonts/OleoScriptSwashCaps-Bold.ttf);
+}
+@font-face {
+    font-family: "Oleo Regular";
+    src: url(../fonts/OleoScriptSwashCaps-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PT bold";
+    src: url(../fonts/PTSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "PT regular";
+    src: url(../fonts/PTSans-Regular.ttf);
+}
