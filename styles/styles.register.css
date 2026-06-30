@@ -6,10 +6,10 @@
 }
 
 .input-name-container > .form-input > input {
-    width: 145px;
-    height: 33px;
+    width: 160px;
+    height: 40px;
     border: 3px solid #36454F;
-    border-radius: 10px;
+    border-radius: 15px;
     outline: none;
     background-color: #0B0909;
     color: #DDDDDD;
@@ -23,16 +23,19 @@
 }
 
 #lastname-label {
-    padding-left: 85px;
+    padding-left: 120px;
 }
 
 .input-name-container > .form-input >input:focus{
     border: 3px solid #FF8FA4
     
 }
-
-.register-button > .form-button {
-    margin-left: 257px;
-    
+.got-to-register {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 10px;
+}
+.got-to-register > .form-anker >a {
+
 }

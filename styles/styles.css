@@ -14,14 +14,14 @@ body{
     border-radius: 20px;
     padding: 0px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 132px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 16px;
     padding-top:16px;
-    width: 350px;
+    width: 400px;
     background-color: #0B0909;
 }
 
@@ -90,10 +90,10 @@ body{
 }
 
 .form-input > input {
-    width: 310px;
-    height: 33px;
+    width: 357px;
+    height: 40px;
     border: 3px solid #36454F;
-    border-radius: 10px;
+    border-radius: 15px;
     outline: none;
     background-color: #0B0909;
     color: #DDDDDD;
@@ -110,98 +110,43 @@ body{
     
 }
 
-.login-utils {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 10px;
-}
 
-.form-anker > a {
-    color: #B0B0B0;
-    font-family: "PT regular";
-    font-size: 16px;
-    text-decoration: none;
-}
 
-.form-anker > a:visited {
-    text-decoration: none;
-    color:  #B0B0B0;
-    
-}
 
-.form-anker > a:hover{
-    text-decoration: none;
-    color: #FF8FA4;
-}
-
-.form-anker> a:active {
-    text-decoration: none;
-}
 
 .form-button > input{
-    width: 62px;
+    width: 365px;
     height: 38px;
     outline: none;
     background: #7C0C9B;
     border: none;
-    border-radius: 13px;
+    border-radius: 15px;
     color: #DDDDDD;
     font-weight: bold;
+    margin-top: 16px;
+    
 }
 
 .form-button > input:hover{
-    background-color: #400C9B;
+    background-color: #8f0eb3;
     color: #b0b0b0;
 }
 
 .form-button > input:active{
-    background-color: #0C139B;
+    background-color: #690a83;
     color: #6e6e6e;
 }
 
-.go-to-register{
+.useful-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+/* .go-to-register{
     margin-top: 0;
     text-align: center;
     vertical-align: top;
-}
+} */
 
-.footer-container {
-    background-color: #0B0909;
-    color: #DDDDDD;
-    font-family: "PT regular";
-    height: 138px;
-}
-
-.copyright {
-    text-align: center;
-    padding-top: 10px;
-    font-weight: bold;
-    font-size: 16px;
-}
-
-
-.footer-urls > hr {
-    border: 1px solid #DDDDDD;
-    margin-left: 150px;
-    margin-right: 150px;
-    line-height: 0px;
-   
-}
-
-.footer-urls > ul {
-    text-align: center;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    padding-top: 10px;
-    list-style: none;
-}
-
-.footer-urls > ul > li {
-    display: inline-block;
-    text-decoration: none;
-    margin-left: 15px;
-    margin-right: 15px;
-    font-size: 16px;
-}
