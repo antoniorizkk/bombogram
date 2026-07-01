@@ -1,0 +1,10 @@
+@import url('fonts.css');
+
+.label{
+    font-family: "PT regular";
+    /* line-height: 0; */
+    color: #DDDDDD;
+    font-size: clamp(8px, 5vw, 18px);
+    margin-top:10px;
+
+}
