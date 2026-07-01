@@ -1,5 +1,5 @@
-@import url("fonts.css");
-@import url("styles.css");
+@import url('../fonts/fonts.css');
+@import url("../styles.css");
 .footer-container {
   background-color: #0b0909;
   color: #dddddd;

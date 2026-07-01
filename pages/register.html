@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/styles.css" />
-    <link rel="stylesheet" href="../styles/styles.footer.css" />
-    <link rel="stylesheet" href="../styles/styles.anchor.css" />
-    <link rel="stylesheet" href="../styles/styles.label.css" />
+    <link rel="stylesheet" href="../styles/footer/styles.footer.css" />
+    <link rel="stylesheet" href="../styles/anchor/styles.anchor.css" />
+    <link rel="stylesheet" href="../styles/label/styles.label.css" />
+    <link rel="stylesheet" href="../styles/button/styles.button.css"/>
+    <link rel="stylesheet" href="../styles/input/styles.input.css"/>
     <link rel="stylesheet" href="../styles/styles.register.css" />
+
     <title>Bombogram</title>
   </head>
   <body>
@@ -30,7 +33,7 @@
                 <div class="label">
                   <label for="firstname">Firstname</label>
                 </div>
-                <div class="form-input">
+                <div class="input">
                   <input type="text" id="firstname" placeholder="John" />
                 </div>
               </div>
@@ -38,54 +41,59 @@
                 <div class="label">
                   <label for="lastname">Lastname</label>
                 </div>
-                <div class="form-input">
+                <div class="input">
                   <input type="text" id="lastname" placeholder="Doe" />
                 </div>
               </div>
             </div>
 
-            <div class="label">
-              <label for="username">Username</label>
-            </div>
-            <div class="form-input">
-              <input
-                type="text"
-                id="username"
-                placeholder="john.doe or johndoe1234 etc..."
-                required
-              />
-            </div>
-            <div class="label">
-              <label for="email">Email</label>
-            </div>
-            <div class="form-input">
-              <input
-                type="email"
-                id="email"
-                placeholder="john@xyz.com"
-                required
-              />
-            </div>
-
-            <div class="label">
-              <label for="password">Password</label>
-            </div>
-            <div class="form-input">
-              <input
-                type="password"
-                id="password"
-                placeholder="enter your password..."
-                required
-              />
-            </div>
-
-            <div class="register-button">
-              <div class="form-button">
-                <input type="submit" value="Register" />
+            <div class="label-input-container">
+              <div class="label">
+                <label for="username">Username</label>
+              </div>
+              <div class="input">
+                <input
+                  type="text"
+                  id="username"
+                  placeholder="john.doe or johndoe1234 etc..."
+                  required
+                />
               </div>
             </div>
 
-            <br />
+            <div class="label-input-container">
+              <div class="label">
+                <label for="email">Email</label>
+              </div>
+              <div class="input">
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="john@xyz.com"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="label-input-container">
+              <div class="label">
+                <label for="password">Password</label>
+              </div>
+              <div class="input">
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="enter your password..."
+                  required
+                />
+              </div>
+            </div>
+
+
+            <div class="button">
+              <input type="submit" value="Register" />
+            </div>
+
             <div class="link-login">
               <div class="form-anchor">
                 <a href="../index.html">Aready joined? Login</a>
